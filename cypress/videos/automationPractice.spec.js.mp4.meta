@@ -1,0 +1,11 @@
+;FFMETADATA1
+[CHAPTER]
+TIMEBASE=1/1000
+START=-2597
+END=52031
+title=first test login
+[CHAPTER]
+TIMEBASE=1/1000
+START=70069
+END=106811
+title=first test AddProductToCart and proceed to checkout

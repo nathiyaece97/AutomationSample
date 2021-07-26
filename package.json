@@ -1,0 +1,19 @@
+{
+  "name": "ngx-admin",
+  "version": "4.0.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akveo/ngx-admin.git"
+  },
+  
+  "devDependencies": {
+    "junit-merge": "^2.0.0",
+    "mocha-junit-reporter": "^2.0.0",
+    "mochawesome": "^6.2.2",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.2.0",
+    "npm-run-all": "4.0.2",
+    "protractor": "5.4.3"
+   }
+}

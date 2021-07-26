@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="54.5790" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2021-07-26T10:56:26" tests="0" file="cypress/integration/automationPractice.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="first test" timestamp="2021-07-26T10:56:26" tests="2" time="54.5790" failures="1">
+    <testcase name="first test login" time="54.5790" classname="login">
+    </testcase>
+    <testcase name="first test AddProductToCart and proceed to checkout" time="0.0000" classname="AddProductToCart and proceed to checkout">
+      <failure message="Timed out retrying after 4050ms: `cy.click()` could not be issued because we could not determine the actionability of this element:
+
+`&lt;a class=&quot;btn btn-default button button-medium&quot; href=&quot;http://automationpractice.com/index.php?controller=order&quot; title=&quot;Proceed to checkout&quot; rel=&quot;nofollow&quot;&gt;...&lt;/a&gt;`
+
+You can prevent this by passing `{force: true}` to disable all error checking." type="CypressError"><![CDATA[CypressError: Timed out retrying after 4050ms: `cy.click()` could not be issued because we could not determine the actionability of this element:
+
+`<a class="btn btn-default button button-medium" href="http://automationpractice.com/index.php?controller=order" title="Proceed to checkout" rel="nofollow">...</a>`
+
+You can prevent this by passing `{force: true}` to disable all error checking.
+    at ensureNotAnimating (http://automationpractice.com/__cypress/runner/cypress_runner.js:132556:15)
+    at runAllChecks (http://automationpractice.com/__cypress/runner/cypress_runner.js:132688:9)
+    at retryActionability (http://automationpractice.com/__cypress/runner/cypress_runner.js:132719:16)
+    at tryCatcher (http://automationpractice.com/__cypress/runner/cypress_runner.js:10798:23)
+    at Function.Promise.attempt.Promise.try (http://automationpractice.com/__cypress/runner/cypress_runner.js:8072:29)
+    at tryFn (http://automationpractice.com/__cypress/runner/cypress_runner.js:148863:21)
+    at whenStable (http://automationpractice.com/__cypress/runner/cypress_runner.js:148901:12)
+    at http://automationpractice.com/__cypress/runner/cypress_runner.js:148393:16
+    at tryCatcher (http://automationpractice.com/__cypress/runner/cypress_runner.js:10798:23)
+    at Promise._settlePromiseFromHandler (http://automationpractice.com/__cypress/runner/cypress_runner.js:8733:31)
+    at Promise._settlePromise (http://automationpractice.com/__cypress/runner/cypress_runner.js:8790:18)
+    at Promise._settlePromise0 (http://automationpractice.com/__cypress/runner/cypress_runner.js:8835:10)
+    at Promise._settlePromises (http://automationpractice.com/__cypress/runner/cypress_runner.js:8915:18)
+    at Promise._fulfill (http://automationpractice.com/__cypress/runner/cypress_runner.js:8859:18)
+    at http://automationpractice.com/__cypress/runner/cypress_runner.js:10473:46
+From Your Spec Code:
+    at Context.eval (http://automationpractice.com/__cypress/tests?p=cypress\integration\automationPractice.spec.js:117:64)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
