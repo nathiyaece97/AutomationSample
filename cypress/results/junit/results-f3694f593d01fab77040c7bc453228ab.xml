@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="141.4360" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-07-26T11:08:07" tests="0" file="cypress/integration/automationPracticePageObject.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="first test" timestamp="2021-07-26T11:08:08" tests="3" time="141.4360" failures="0">
+    <testcase name="first test login" time="47.6310" classname="login">
+    </testcase>
+    <testcase name="first test AddProductToCart" time="31.9110" classname="AddProductToCart">
+    </testcase>
+    <testcase name="first test Proceedt To Checkout" time="61.8940" classname="Proceedt To Checkout">
+    </testcase>
+  </testsuite>
+</testsuites>
