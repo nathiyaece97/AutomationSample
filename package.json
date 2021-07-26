@@ -7,6 +7,7 @@
     "url": "git+https://github.com/akveo/ngx-admin.git"
   },
   
+  
   "devDependencies": {
     "junit-merge": "^2.0.0",
     "mocha-junit-reporter": "^2.0.0",
