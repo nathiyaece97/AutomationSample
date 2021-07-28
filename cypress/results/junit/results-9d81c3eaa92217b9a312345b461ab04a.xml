@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="73.7770" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2021-07-28T06:28:40" tests="0" file="cypress/integration/automationPracticePageObject.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="first test" timestamp="2021-07-28T06:28:40" tests="2" time="73.7770" failures="1">
+    <testcase name="first test AddProductToCart" time="73.7770" classname="AddProductToCart">
+    </testcase>
+    <testcase name="first test Proceedt To Checkout" time="0.0000" classname="Proceedt To Checkout">
+      <failure message="paymentethod is not defined" type="ReferenceError"><![CDATA[ReferenceError: paymentethod is not defined
+    at Context.eval (http://automationpractice.com/__cypress/tests?p=cypress\support\index.js:132:15)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
